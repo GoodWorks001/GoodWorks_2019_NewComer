@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>web.FirstServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/first</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>second</servlet-name>
+<servlet-class>web.SecondServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>second</servlet-name>
+<url-pattern>/second</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>third</servlet-name>
+<servlet-class>web.ThirdServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>third</servlet-name>
+<url-pattern>/third</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>session1</servlet-name>
+ <servlet-class>web.SessionServlet1</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>session2</servlet-name>
+   <servlet-class>web.SessionServlet2</servlet-class>
+   </servlet>
+
+   <servlet>
+    <servlet-name>session3</servlet-name>
+     <servlet-class>web.SessionServlet3</servlet-class>
+     </servlet>
+
+      <servlet-mapping>
+      <servlet-name>session1</servlet-name>
+       <url-pattern>/session1</url-pattern>
+       </servlet-mapping>
+
+       <servlet-mapping>
+        <servlet-name>session2</servlet-name>
+         <url-pattern>/session2</url-pattern>
+          </servlet-mapping>
+
+           <servlet-mapping>
+           <servlet-name>session3</servlet-name>
+           <url-pattern>/session3</url-pattern>
+            </servlet-mapping>
+
+
+<servlet>
+<servlet-name>for</servlet-name>
+<servlet-class>web.DispatchServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>for</servlet-name>
+<url-pattern>/for</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+<servlet-name>five</servlet-name>
+<servlet-class>web.UseBeanServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>five</servlet-name>
+<url-pattern>/five</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+<servlet-name>six</servlet-name>
+<servlet-class>web.FortuneServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>six</servlet-name>
+<url-pattern>/six</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Login</servlet-name>
+<servlet-class>web.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Login</servlet-name>
+<url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Kensaku</servlet-name>
+<servlet-class>web.KensakuServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Kensaku</servlet-name>
+<url-pattern>/Kensaku</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Shousai</servlet-name>
+<servlet-class>web.shousaiServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Shousai</servlet-name>
+<url-pattern>/Shousai</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Cart</servlet-name>
+<servlet-class>web.cartServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Cart</servlet-name>
+<url-pattern>/Cart</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Kounyu</servlet-name>
+<servlet-class>web.KounyuServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Kounyu</servlet-name>
+<url-pattern>/Kounyu</url-pattern>
+</servlet-mapping>
+
+
+  <servlet>
+<servlet-name>Logout</servlet-name>
+<servlet-class>web.LogoutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Logout</servlet-name>
+<url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
