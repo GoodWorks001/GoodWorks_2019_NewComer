@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>申し込み入力画面</title>
+</head>
+<body>
+
+
+<p>申し込み入力画面</p>
+<form action = "third" method = "post">
+<table>
+<tr>
+
+
+
+<!-- テキストボックス作成 -->
+<td>お名前</td>
+				<td>
+					<input type = "text" name = "name">
+				</td>
+			</tr>
+
+
+
+<tr>
+				<td>年齢</td>
+				<td>
+					<select name = "age">
+					<option>10代</option>
+					<option>20代</option>
+					<option>30代</option>
+					<option>40代</option>
+					<option>50代</option>
+					<option>60代</option>
+					<option>70代</option>
+					</select>
+				</td>
+			</tr>
+
+
+<tr>
+				<td>性別</td>
+				<td>
+					<input type = "radio" name= "gender" value = "男性">男性
+					<input type = "radio" name= "gender" value = "女性">女性
+				</td>
+			</tr>
+
+
+	<tr>
+				<td>興味のある言語</td>
+				<td>
+					<input type = "checkbox"  name = "langage1" value = "java">Java
+
+					<input type = "checkbox"  name = "langage2" value = "C言語"	>C言語
+
+					<input type = "checkbox"  name = "langage3"value = "PHP">PHP
+				</td>
+			</tr>
+
+
+<tr>
+<td>一言</td>
+				<td>
+					<textarea rows = "4" cols= "20" name="free"></textarea>
+				</td>
+			</tr>
+
+
+<tr>
+				<td></td>
+				<td>
+					<input type = "submit" value = "送信" >
+				</td>
+				<td></td>
+			</table>
+
+
+</form>
+
+</body>
+</html>
