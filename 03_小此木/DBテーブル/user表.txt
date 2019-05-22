@@ -1,0 +1,12 @@
+
+drop table user;
+
+ create table user(
+     user_id int primary key,
+     user_name VARCHAR(60),
+     login_cd varchar(30),
+     login_pw varchar(30));
+    
+    
+insert into user values(1,'okonogi','1','kaito');
+insert into user values(2,'nakano','2','kaito');
