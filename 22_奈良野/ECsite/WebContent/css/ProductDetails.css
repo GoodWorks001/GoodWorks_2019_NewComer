@@ -1,0 +1,31 @@
+body {
+
+}
+
+#tag {
+	position: relative;
+	text-align: center;
+}
+
+#img {
+	position: absolute;
+	left:400px;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+
+}
+#table{
+	position: absolute;
+	left:280px;
+	top:350px;
+}
+#back{
+
+}
+#cart{
+
+}
+#kosu{
+
+}
