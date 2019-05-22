@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ec</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>ec.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	  	<servlet>
+		<servlet-name>KensakuServlet</servlet-name>
+		<servlet-class>ec.KensakuServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>KensakuServlet</servlet-name>
+		<url-pattern>/KensakuServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CatServlet</servlet-name>
+		<servlet-class>ec.CatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CatServlet</servlet-name>
+		<url-pattern>/CatServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>ShousaiServlet</servlet-name>
+		<servlet-class>ec.ShousaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShousaiServlet</servlet-name>
+		<url-pattern>/ShousaiServlet</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+		<servlet-name>CartServlet</servlet-name>
+		<servlet-class>ec.CartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CartServlet</servlet-name>
+		<url-pattern>/CartServlet</url-pattern>
+	</servlet-mapping>
+
+				<servlet>
+		<servlet-name>MaisaiServlet</servlet-name>
+		<servlet-class>ec.MaisaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MaisaiServlet</servlet-name>
+		<url-pattern>/MaisaiServlet</url-pattern>
+	</servlet-mapping>
+
+					<servlet>
+		<servlet-name>LogOutServlet</servlet-name>
+		<servlet-class>ec.LogOutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogOutServlet</servlet-name>
+		<url-pattern>/LogOutServlet</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

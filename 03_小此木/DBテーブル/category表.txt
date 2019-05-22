@@ -1,0 +1,10 @@
+drop table category;
+
+ create table category(
+    cat_id int primary key,
+    cat_name varchar(60));
+    
+    
+    insert into category values(1,'•¶–[‹ï');
+    insert into category values(2,'‰Æ“d');
+    insert into category values(3,'ˆù—¿');
