@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>申し込み入力画面</h1>
+	<br>
+	<form action="Third" method="post">
+
+	<tr>お名前</tr>
+	<input type="text" name="name">
+	<br>
+
+	<tr>年齢</tr>
+	<select name="age">
+		<!-- 空白から始める -->
+		<option></option>
+		<option>10代</option>
+		<option>20代</option>
+		<option>30代</option>
+		<option>40代</option>
+		<option>50代</option>
+		<option>60代</option>
+		<option>70代</option>
+	</select>
+	<br>
+
+	<tr>性別</tr>
+	<!-- 男のチェックボックスに元からチェックを入れとく -->
+	<!-- radioはどちらか片方のみチェック -->
+	<input type="radio" name="sex" value="男" checked="checked">男
+	<input type="radio" name="sex" value="女" >女
+	<br>
+
+	<tr>興味ある言語</tr>
+	<!-- チェックボックスのnameを変えて表示する -->
+	<input type="checkbox" name="lag" value="java" />Java
+	<input type="checkbox" name="lag1" value="PHP" />PHP
+	<input type="checkbox" name="lag2" value="C言語" />C言語
+	<br>
+	<tr>なにか一言</tr>
+	<textarea name="freeans" rows="4" cols="40"></textarea>
+	<input type="submit" value="送信">
+
+	</form>
+</body>
+</html>
