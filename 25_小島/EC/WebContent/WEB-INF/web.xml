@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>EC</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+
+  <servlet>
+     <servlet-name>loginSevlet</servlet-name>
+     <servlet-class>ec.loginSevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginSevlet</servlet-name>
+    <url-pattern>/loginSevlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+     <servlet-name>loginServlet</servlet-name>
+     <servlet-class>ec.loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>kensakuServlet</servlet-name>
+     <servlet-class>ec.kensakuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kensakuServlet</servlet-name>
+    <url-pattern>/kensakuServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+     <servlet-name>searchServlet</servlet-name>
+     <servlet-class>ec.searchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchServlet</servlet-name>
+    <url-pattern>/searchServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+<servlet>
+     <servlet-name>shoukaiServlet</servlet-name>
+     <servlet-class>ec.shoukaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>shoukaiServlet</servlet-name>
+    <url-pattern>/shoukaiServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>cartServlet</servlet-name>
+     <servlet-class>ec.cartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cartServlet</servlet-name>
+    <url-pattern>/cartServlet</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+     <servlet-name>kakuninServlet</servlet-name>
+     <servlet-class>ec.kakuninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kakuninServlet</servlet-name>
+    <url-pattern>/kakuninServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>updateServlet</servlet-name>
+     <servlet-class>ec.updateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateServlet</servlet-name>
+    <url-pattern>/updateServlet</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+     <servlet-name>logout</servlet-name>
+     <servlet-class>ec.logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>shousai10</servlet-name>
+     <servlet-class>ec.shousai10</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>shousai10</servlet-name>
+    <url-pattern>/shousai10</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+     <servlet-name>tuzuServlet</servlet-name>
+     <servlet-class>ec.tuzuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tuzuServlet</servlet-name>
+    <url-pattern>/tuzuServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

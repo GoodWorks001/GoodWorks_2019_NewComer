@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>web1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+
+  <servlet-name>first</servlet-name>
+  <servlet-class>web1.First</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>first</servlet-name>
+  <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>second</servlet-name>
+  <servlet-class>web1.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>second</servlet-name>
+  <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>third</servlet-name>
+  <servlet-class>web1.Third</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>third</servlet-name>
+  <url-pattern>/third</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>Session1</servlet-name>
+  <servlet-class>web1.Session1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session1</servlet-name>
+  <url-pattern>/Session1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>Session2</servlet-name>
+  <servlet-class>web1.Session2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session2</servlet-name>
+  <url-pattern>/Session2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>Session3</servlet-name>
+  <servlet-class>web1.Session3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session3</servlet-name>
+  <url-pattern>/Session3</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>Disp</servlet-name>
+  <servlet-class>web1.Disp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Disp</servlet-name>
+  <url-pattern>/Disp</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+  <servlet-name>useBean</servlet-name>
+  <servlet-class>web1.UseBeanServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>useBean</servlet-name>
+  <url-pattern>/useBean</url-pattern>
+  </servlet-mapping>
+
+
+    <servlet>
+  <servlet-name>fortune</servlet-name>
+  <servlet-class>web1.FortuneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fortune</servlet-name>
+  <url-pattern>/fortune</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>web1.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Login</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  <servlet-name>category</servlet-name>
+  <servlet-class>web1.categoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>category</servlet-name>
+  <url-pattern>/category</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  <servlet-name>Search</servlet-name>
+  <servlet-class>web1.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Search</servlet-name>
+  <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>ShousaiServlet</servlet-name>
+  <servlet-class>web1.ShousaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ShousaiServlet</servlet-name>
+  <url-pattern>/ShousaiServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  <servlet-name>CartServlet</servlet-name>
+  <servlet-class>web1.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CartServlet</servlet-name>
+  <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>MeisaiServlet</servlet-name>
+  <servlet-class>web1.MeisaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MeisaiServlet</servlet-name>
+  <url-pattern>/MeisaiServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>web1.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,32 @@
+body{
+	background-color: #CCFFFF;
+
+/* 	border: solid 10px;                             線の太さと種類指定 */
+/*     padding:  120px;                                 余白指定 */
+/*     text-align:  center;                            文字中央揃え */
+/*     border-color: #FF99CC #33FF00 #66FFFF #FF9800;  線の色指定 */
+
+}
+
+.button02{
+
+
+     display:block;
+     width: 70px;
+     height:30px;
+     line-height: 20px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #f39800; /*ボタン色*/
+     border-radius: 15px; /*角丸*/
+     -webkit-transition: all 0.5s;
+     transition: all 1s;
+}
+.button02:hover{
+     background-color: #f9c500; /*ボタン色*/
+}
+
+
+
+
