@@ -1,0 +1,69 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body {
+	background-color: #fffacd;
+}
+
+#login_frame {
+	height: 150px;
+	max-width: 320px;
+	font-weight: bold;
+	margin-left: 35%;
+	color: #111; /*文字色*/
+	border: solid 3px #6091d3; /*線*/
+	border-radius: 10px;
+	background: #FFF;
+	color: #111; /*角の丸み*/
+}
+
+#haiti {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto 100px;
+	width: 78%;
+	height: 40%;
+}
+
+#haiti2 {
+	position: absolute;
+	top: 0.5;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 78%;
+	height: 40%;
+}
+
+#errer_col {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 78%;
+	height: 250px;
+	color: red;
+}
+
+#textB {
+	max-width: 20%;
+	height: 10px;
+}
+
+#topL{
+	max-width:100%;
+	height:30px;
+	background-color:#deb887;
+}
+
+h1{
+	margin-top:45px;
+	margin-bottom:25px;
+}
