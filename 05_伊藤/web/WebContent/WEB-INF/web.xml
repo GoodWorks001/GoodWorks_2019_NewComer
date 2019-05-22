@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>web</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>web.FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>web.SecondServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/second</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Third</servlet-name>
+		<servlet-class>web.ThirdServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Third</servlet-name>
+		<url-pattern>/Third</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>session</servlet-name>
+		<servlet-class>web.session</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>session</servlet-name>
+		<url-pattern>/session</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>session2</servlet-name>
+		<servlet-class>web.session2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>session2</servlet-name>
+		<url-pattern>/session2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>session3</servlet-name>
+		<servlet-class>web.session3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>session3</servlet-name>
+		<url-pattern>/session3</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>dispatch</servlet-name>
+		<servlet-class>web.DispatchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>dispatch</servlet-name>
+		<url-pattern>/dispatch</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>useBean</servlet-name>
+		<servlet-class>web.UseBeanServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>useBean</servlet-name>
+		<url-pattern>/useBean</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fortune</servlet-name>
+		<servlet-class>web.FortuneServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>fortune</servlet-name>
+		<url-pattern>/fortune</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>web.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>web.SearchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/Search</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Product</servlet-name>
+		<servlet-class>web.SearchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Product</servlet-name>
+		<url-pattern>/Product</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Cart</servlet-name>
+		<servlet-class>web.ProductServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Buy</servlet-name>
+		<servlet-class>web.CartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Buy</servlet-name>
+		<url-pattern>/Buy</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Thinkyou</servlet-name>
+		<servlet-class>web.BuyServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Thinkyou</servlet-name>
+		<url-pattern>/Thinkyou</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>owari</servlet-name>
+		<servlet-class>web.ThinkyouServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>owari</servlet-name>
+		<url-pattern>/owari</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
