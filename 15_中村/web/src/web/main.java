@@ -1,0 +1,23 @@
+package web;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBManager {
+    private static String DriverName="com.mysql.jdbc.Driver";
+    private static String url = "jdbc:mysql://localhost/testdb";
+    private static String user = "root";
+    private static String pass = "1234";
+    public static Connection getConnection() {
+        Connection con = null;
+        try {
+            Class.forName(driverName);
+            con = DriverManager.getConnection(url,user,pass);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return con;
+    }
+}

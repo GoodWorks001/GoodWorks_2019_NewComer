@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>申込入力画面</title>
+</head>
+<body>
+
+
+ <form action="third" method="post">
+    <p>お名前:
+
+    <input type ="text" name ="param">
+
+
+    </p>
+
+
+
+    <p>年齢:
+    <select name="age">
+    <option value="10">10代</option>
+    <option value="20">20代</option>
+    <option value="30">30代</option>
+    <option value="40">40代</option>
+    <option value="50">50代</option>
+    <option value="60">60代</option>
+    <option value="70">70代</option>
+    </select>
+    </p>
+
+    <p>性別:
+    男<input type="radio" name="sex" value="man">
+    女<input type="radio" name="sex" value="woman">
+
+    </p>
+
+    <p>興味のある言語:
+    java<input type="checkbox" name="gengo" value="Java">
+    PHP<input type="checkbox" name="gengo1" value="PHP">
+    C言語<input type="checkbox" name="gengo2" value="C言語">
+
+    </p>
+
+	<p>なにか一言</p>
+	<textarea cols="30" rows="5" name="com1">
+	</textarea>
+
+<input type ="submit" value = "送信">
+
+</form>
+
+</body>
+</html>
