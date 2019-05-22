@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*divがないjspで使う*/
+
+body{
+
+}
+
+div{
+
+}
+
+h1{
+	color:green;
+	font-style:italic;
+	text-decoration:underline;
+}

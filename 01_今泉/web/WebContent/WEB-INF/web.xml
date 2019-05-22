@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+   <display-name>web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+   <servlet>
+    <servlet-name>first</servlet-name>
+    <servlet-class>web.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>web.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>third</servlet-name>
+    <servlet-class>web.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>third</servlet-name>
+    <url-pattern>/third</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+<servlet-name>session1</servlet-name>
+<servlet-class>web.SessionServlet1</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>session2</servlet-name>
+<servlet-class>web.SessionServlet2</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>session3</servlet-name>
+<servlet-class>web.SessionServlet3</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>dispatch</servlet-name>
+<servlet-class>web.DispatchServlet</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>useBean</servlet-name>
+<servlet-class>web.UseBeanServlet</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>Fortune</servlet-name>
+<servlet-class>web.FortuneServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>session1</servlet-name>
+<url-pattern>/session1</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>session2</servlet-name>
+<url-pattern>/session2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>session3</servlet-name>
+<url-pattern>/session3</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>dispatch</servlet-name>
+<url-pattern>/dispatch</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>useBean</servlet-name>
+<url-pattern>/useBean</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>Fortune</servlet-name>
+<url-pattern>/Fortune</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>web.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login1</servlet-name>
+    <servlet-class>web.LoginServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login1</servlet-name>
+    <url-pattern>/Login1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Category</servlet-name>
+    <servlet-class>web.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Category</servlet-name>
+    <url-pattern>/Category</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Kaden</servlet-name>
+    <servlet-class>web.KadenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Kaden</servlet-name>
+    <url-pattern>/Kaden</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>web.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Kakunin</servlet-name>
+    <servlet-class>web.KakuninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Kakunin</servlet-name>
+    <url-pattern>/Kakunin</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Last</servlet-name>
+    <servlet-class>web.LastServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Last</servlet-name>
+    <url-pattern>/Last</url-pattern>
+  </servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>web.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
