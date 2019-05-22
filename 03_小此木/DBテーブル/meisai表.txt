@@ -1,0 +1,14 @@
+drop table meisai;
+
+
+ create table meisai(
+     mei_id int AUTO_INCREMENT primary key,
+     user_id int,
+     pro_cd int,
+     ko_date date,
+     mei_price int);
+     
+     
+     insert into meisai (user_id,pro_cd,ko_date,mei_price) values(1,2,'2019-05-21-11',5400);
+    
+    
