@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.btn-circle-fishy {
+	display: inline-block;
+	text-decoration: none;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	text-align: center;
+	overflow: hidden;
+	background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+	transition: .4s;
+}
+
+.btn-circle-fishy:hover {
+	-webkit-transform: rotate(10deg);
+	transform: rotate(360deg);
+}
