@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>web</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>logken</servlet-name>
+		<servlet-class>web.LogKenServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logken</servlet-name>
+		<url-pattern>/logken</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>kensyou</servlet-name>
+		<servlet-class>web.KenSyouServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>kensyou</servlet-name>
+		<url-pattern>/kensyou</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>kensaku</servlet-name>
+		<servlet-class>web.KensakuServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>kensaku</servlet-name>
+		<url-pattern>/kensaku</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cart</servlet-name>
+		<servlet-class>web.CartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cart</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>kakuninn</servlet-name>
+		<servlet-class>web.KakuninnServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>kakuninn</servlet-name>
+		<url-pattern>/kakuninn</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>kanryou</servlet-name>
+		<servlet-class>web.KakuKanServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>kanryou</servlet-name>
+		<url-pattern>/kanryou</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>web.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logback</servlet-name>
+		<servlet-class>web.LogErrorServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logback</servlet-name>
+		<url-pattern>/logback</url-pattern>
+	</servlet-mapping>
+</web-app>
+
