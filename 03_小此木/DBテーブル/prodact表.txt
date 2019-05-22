@@ -1,0 +1,20 @@
+drop table product;
+
+
+
+ create table product(
+     pro_cd int primary key,
+     pro_name varchar(60),
+     stock_no int,
+     pro_price int,
+     cat_id int,
+     pro_img varchar(250),
+     pro_msg varchar(250));
+
+delete from product;
+
+
+insert into product values(1,'万年筆',10,10000,1,'img/mannenhitu.jpg','お高い万年筆ですが、きっと使いやすいはず');
+insert into product values(2,'炊飯器',2,5000,2,'img/suihannki.jpg','何合でもきっと炊ける！');
+insert into product values(3,'ソーダ',30,90,3,'img/soda.jpg','おいしいはず');
+insert into product values(4,'コーラ',20,90,3,'img/kora.jpg','炭酸多め！'); 
