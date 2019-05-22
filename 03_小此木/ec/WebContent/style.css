@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+	margin:0;
+	paddig:0;
+}
+/* //ログイン画面 */
+.lbody{
+	background-color:#b0e0e6;
+}
+
+.login{
+	margin: 0 auto;
+	width:300px;
+	margin-top: 180px;
+}
+.lh{
+	border:2px solid #191970;
+	background-color: #4169e1;
+	border-radius:10px 10px 0 0;
+}
+.lm{
+	background-color:#c0c0c0;
+	border-left:2px solid #191970;
+	border-right:2px solid #191970;
+	border-bottom:2px solid #191970;
+	border-radius:0 0 10px 10px;
+}
+.id{
+	margin: 0 auto;
+	padding-top:30px;
+	padding-left: 4px;
+}
+.pas{
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+.btn{
+	padding:5px;
+	border:2px solid #191970;
+	border-radius: 10px 10px 10px 10px;
+	width: 100px;
+	margin: 0 auto;
+}
+input.hoge{
+	width: 12em;
+}
+.btnm{
+	padding-bottom: 10px;
+
+}
+.er{
+	margin: 0 auto;
+	padding-top: 20px;
+	border-left:2px solid #191970;
+	border-right:2px solid #191970;
+	background-color:#c0c0c0;
+	font-size: 12px;
+	color: red;
+}
+
+
+/* //検索画面,結果画面 */
+
