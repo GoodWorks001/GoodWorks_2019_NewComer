@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>EC</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>EC</servlet-name>
+    <servlet-class>EC.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EC</servlet-name>
+    <url-pattern>/EC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>syouhin</servlet-name>
+    <servlet-class>EC.SyouhinServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>syouhin</servlet-name>
+    <url-pattern>/syouhin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>syousai</servlet-name>
+    <servlet-class>EC.SyousaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>syousai</servlet-name>
+    <url-pattern>/syousai</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cart</servlet-name>
+    <servlet-class>EC.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cart</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>kakunin</servlet-name>
+    <servlet-class>EC.KakuninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kakunin</servlet-name>
+    <url-pattern>/kakunin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>kanryou</servlet-name>
+    <servlet-class>EC.KanryouServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kanryou</servlet-name>
+    <url-pattern>/kanryou</url-pattern>
+  </servlet-mapping>
+</web-app>
