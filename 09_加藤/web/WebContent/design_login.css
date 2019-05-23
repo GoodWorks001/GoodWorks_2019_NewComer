@@ -1,0 +1,23 @@
+table{
+	border:3px solid saddlebrown;
+	background-color:#f5f5dc;
+	border-radius:10px;
+	margin-right:10px;
+	margin-top:-21px;
+	width:280px;
+	height:130px;
+	padding:10px;
+    display:inline-block;
+}
+
+h1{
+	border:3px solid blue;
+	background-color:#00d9ff;
+	border-radius:10px;
+	margin-right:10px;
+	margin-top:100px;
+	width:270px;
+	height:35px;
+	/* padding:10px; */
+	display:inline-block;
+}
