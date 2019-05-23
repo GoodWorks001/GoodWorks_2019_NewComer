@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Ecsite</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+    <servlet>
+    <servlet-name>ECservlet</servlet-name>
+    <servlet-class>Login.ECservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ECservlet</servlet-name>
+    <url-pattern>/ECservlet</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>Servlet</servlet-name>
+    <servlet-class>Search.Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/Servlet</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>KensakuServlet</servlet-name>
+    <servlet-class>Search.KensakuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>KensakuServlet</servlet-name>
+    <url-pattern>/KensakuServlet</url-pattern>
+  </servlet-mapping>
+
+      <servlet>
+    <servlet-name>SyousaiServlet</servlet-name>
+    <servlet-class>Syousai.SyousaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SyousaiServlet</servlet-name>
+    <url-pattern>/SyousaiServlet</url-pattern>
+  </servlet-mapping>
+
+      <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>Cart.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+
+
+      <servlet>
+    <servlet-name>MeisaiServlet</servlet-name>
+    <servlet-class>Meisai.MeisaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MeisaiServlet</servlet-name>
+    <url-pattern>/MeisaiServlet</url-pattern>
+  </servlet-mapping>
+
+
+      <servlet>
+    <servlet-name>LogOutServlet</servlet-name>
+    <servlet-class>Login.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutServlet</servlet-name>
+    <url-pattern>/LogOutServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+</web-app>
