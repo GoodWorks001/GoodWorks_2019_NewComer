@@ -1,0 +1,187 @@
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+}
+.cp_iptxt input[type='text']:focus {
+	outline: none;
+}
+.ef {
+	padding: 7px 14px;
+	transition: 0.4s;
+	border: 1px solid #1b2538;
+	background: transparent;
+}
+.ef ~ .focus_line:before,
+.ef ~ .focus_line:after {
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	content: '';
+	transition: 0.4s;
+	background-color: #da3c41;
+}
+.ef ~ .focus_line:after {
+	top: auto;
+	bottom: 0;
+}
+.ef ~ .focus_line i:before,
+.ef ~ .focus_line i:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	content: '';
+	transition: 0.6s;
+	background-color: #da3c41;
+}
+.ef ~ .focus_line i:after {
+	right: 0;
+	left: auto;
+}
+.ef:focus ~ .focus_line:before,
+.ef:focus ~ .focus_line:after,
+.cp_iptxt.ef ~ .focus_line:before,
+.cp_iptxt.ef ~ .focus_line:after {
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.ef:focus ~ .focus_line i:before,
+.ef:focus ~ .focus_line i:after,
+.cp_iptxt.ef ~ .focus_line i:before,
+.cp_iptxt.ef ~ .focus_line i:after {
+	top: -1px;
+	height: 100%;
+	transition: 0.6s;
+}
+.ef ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+	left: 14px;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: #aaaaaa;
+}
+.ef:focus ~ label,
+.cp_iptxt.ef ~ label {
+	font-size: 12px;
+	top: -18px;
+	left: 0;
+	transition: 0.3s;
+	color: #da3c41;
+}
+
+
+
+button.button7 {
+
+	    /* 文字サイズを1.4emに指定 */
+
+    font-size: 1.2em;
+
+
+
+	    /* 文字の太さをboldに指定 */
+
+	    font-weight: bold;
+
+
+
+	    /* 縦方向に10px、
+
+	     * 横方向に30pxの余白を指定 */
+
+	    padding: 10px 30px;
+
+
+
+	    /* 文字色を白色に指定 */
+
+	    color: #008080;
+
+
+
+	    /* ボーダーをなくす */
+
+	    border-style: none;
+
+
+
+	    /* ボタンの影の指定
+
+	     * 影の横幅を2px
+
+	     * 縦長を2px
+
+	     * ぼかしを3px
+
+	     * 広がりを1px
+
+	     * 色を#666（グレー）に指定 */
+
+	    box-shadow: 2px 2px 3px 1px #666;
+
+	    -moz-box-shadow: 2px 2px 3px 1px #666;
+
+	    -webkit-box-shadow: 2px 2px 3px 1px #666;
+
+
+
+	    /* テキストの影の指定
+
+	     * 影の横幅を1px
+
+	     * 縦長を1px
+
+	     * ぼかしを2px
+
+	     * 色を#000（黒）に指定 */
+
+	    text-shadow: 1px 1px 2px #000;
+
+
+
+	    /* グラデーションの指定 */
+
+	    background: -moz-linear-gradient(bottom, #36d, #248 50%, #36d);
+
+	    background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+
+	}
+
+
+
+	button.button7:hover {
+
+	    /* 透明度を20%に指定 */
+
+	    opacity: 0.6;
+
+	}
+
+	.border02{
+    color: #fff;
+    text-shadow: 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 1px 1px 1px #555, -1px 1px 1px #555, 1px -1px 1px #555, -1px -1px 1px #555, 5px 5px #9ccc65;
+    transform: rotate(-4deg);
+}
+
+
+
+
+
+
+
+
