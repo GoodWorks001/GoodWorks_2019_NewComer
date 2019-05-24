@@ -30,7 +30,7 @@ public class DAO_S {
 
 			cnct = DriverManager.getConnection(url, id, pw);
 			st = cnct.createStatement();
-			String sql = "SELECT * FROM product WHERE pro_name = " + nam;
+			String sql = "SELECT * FROM product WHERE pro_name = '" + nam+"'";
 
 			System.out.println(sql);
 			rs = st.executeQuery(sql);

@@ -29,11 +29,11 @@ public class SearchServlet extends HttpServlet {
 		DAO_S odas = new DAO_S();
 		//DAOをインスタンス化します↑
 
-		if((kensaku !="" && cat != "") || (kensaku != "" && cat =="") ){
+		if((!kensaku.equals("") && !cat.equals("")) || (!kensaku.equals("") && cat.equals("")) ){
 			pb=odas.pb(kensaku);
 			//検索した際に何々じゃないときに何々のロジック
 
-		}else if(kensaku == "" && cat != ""){
+		}else if(kensaku.equals("") && !cat.equals("")){
 			pb=odas.searchpro(cat);
 		}
 
@@ -48,6 +48,8 @@ public class SearchServlet extends HttpServlet {
 			//遷移先を選定しています↑
 
 		} else if(pb.size() == 0){
+			HttpSession ses = req.getSession(true);
+			ses.setAttribute("prolist", pb);
 			System.out.println("ミスってるやん。");
 			req.setAttribute("err1", "検索件数0件です。他のキーワードを入力して下さい。");
 			RequestDispatcher rd = req.getRequestDispatcher("/Search2.jsp");
