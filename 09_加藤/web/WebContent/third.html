@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- titleタグ -->
+<title>Sample</title><meta charset="UTF-8">
+</head>
+
+<!-- bodyタグ -->
+<body>
+     <form action="third" method="post">
+    <h1>申し込み入力画面</h1>
+    <!-- 入力用の空欄バーの作成 -->
+    <p>お名前：<input type="text" name="param" style="margin-left:55px;"></p>
+    <p>年齢：<select name="param1" style="margin-left:70px;"><option selected>
+    <option value="10">10代</option>
+    <option value="20">20代</option>
+    <option value="30">30代</option>
+    <option value="40">40代</option>
+    <option value="50">50代</option>
+    <option value="60">60代</option>
+    <option value="70">70代</option>
+    </select></p>
+    <p>性別：<input type="radio" style="margin-left:70px;" name="param2" value="男性" checked="checked">男性<input type="radio" name="param2" value="女性">女性</p>
+    <p>興味のある言語<input type="checkbox" value="Java" name="param3">Java<input type="checkbox" value="PHP" name="param4">PHP<input type="checkbox" value="C言語" name="param5">C言語</p>
+    <p>何か一言<textarea name="param6" cols="20" rows="5" style="margin-left:50px;"></textarea></p>
+    <!-- 送信という名前のボタンを作成 -->
+    <input type="submit" value="送信" style="margin-left:115px;">
+    </form>
+</body>
+</html>
